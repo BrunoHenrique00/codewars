@@ -3,8 +3,8 @@ const { floralwhite } = require("color-name")
 function towerBuilder(nFloors) {
     let floors = 1
     let building = []
-    while( floors <= nFloors ){
-        building = [...building,'*'.repeat(floors)]
+    while (floors <= nFloors) {
+        building = [...building, '*'.repeat(floors)]
         floors++
     }
     return building
